@@ -1875,6 +1875,20 @@
                     "rotate": 90
                 }
             ]
+        },
+        {
+            "atomType": "Circle",
+            "name": "Circle",
+            "x": 0.7202380952380952,
+            "y": 0.233983286908078,
+            "uniqueID": 1747865648121,
+            "ioValues": [
+                {
+                    "name": "diameter",
+                    "ioValue": 100
+                }
+            ],
+            "description": "Creates a new circle."
         }
     ],
     "allConnectors": [
