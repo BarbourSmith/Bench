@@ -1756,36 +1756,6 @@
             "compiledBom": []
         },
         {
-            "atomType": "Export",
-            "name": "Export",
-            "x": 0.7705026455026456,
-            "y": 0.6508379888268156,
-            "uniqueID": 1747726284552,
-            "ioValues": [
-                {
-                    "name": "geometry",
-                    "ioValue": 1747729393885
-                },
-                {
-                    "name": "Resolution (dpi)",
-                    "ioValue": 96
-                },
-                {
-                    "name": "Part Name",
-                    "ioValue": "Bench"
-                },
-                {
-                    "name": "File Type",
-                    "ioValue": "SVG"
-                }
-            ],
-            "description": "Export Atom, let's you choose a type of file to Export.",
-            "type": null,
-            "resolution": 96,
-            "importIndex": 0,
-            "partName": "Bench"
-        },
-        {
             "atomType": "Assembly",
             "name": "Assembly",
             "x": 0.5906250000000001,
@@ -1881,8 +1851,8 @@
         {
             "atomType": "Circle",
             "name": "Circle",
-            "x": 0.612153708668454,
-            "y": 0.223463687150838,
+            "x": 0.5111706881143878,
+            "y": 0.19273743016759776,
             "uniqueID": 1747865648121,
             "ioValues": [
                 {
@@ -1909,13 +1879,13 @@
         {
             "atomType": "Extrude",
             "name": "Extrude",
-            "x": 0.7176050044682752,
-            "y": 0.25977653631284914,
+            "x": 0.7649687220732797,
+            "y": 0.18156424581005587,
             "uniqueID": 1749506796803,
             "ioValues": [
                 {
                     "name": "geometry",
-                    "ioValue": 1747865648121
+                    "ioValue": 1749507167315
                 },
                 {
                     "name": "height",
@@ -1927,8 +1897,8 @@
         {
             "atomType": "Gcode",
             "name": "Gcode",
-            "x": 0.8596961572832886,
-            "y": 0.27653631284916197,
+            "x": 0.8793565683646113,
+            "y": 0.27932960893854747,
             "uniqueID": 1749506814216,
             "ioValues": [
                 {
@@ -1937,6 +1907,32 @@
                 }
             ],
             "description": "Generates Maslow gcode from the input geometry."
+        },
+        {
+            "atomType": "Move",
+            "name": "Move",
+            "x": 0.644325290437891,
+            "y": 0.18156424581005587,
+            "uniqueID": 1749507167315,
+            "ioValues": [
+                {
+                    "name": "geometry",
+                    "ioValue": 1747865648121
+                },
+                {
+                    "name": "xDist",
+                    "ioValue": 11
+                },
+                {
+                    "name": "yDist",
+                    "ioValue": 0
+                },
+                {
+                    "name": "zDist",
+                    "ioValue": 0
+                }
+            ],
+            "description": "Moves a shape laterally in X, Y, Z."
         }
     ],
     "allConnectors": [
@@ -2148,13 +2144,6 @@
             "ap2Name": "geometry",
             "ap2Primary": false,
             "ap1ID": 1747729393885,
-            "ap2ID": 1747726284552
-        },
-        {
-            "ap1Name": "geometry",
-            "ap2Name": "geometry",
-            "ap2Primary": false,
-            "ap1ID": 1747729393885,
             "ap2ID": 1749505924458
         },
         {
@@ -2162,7 +2151,7 @@
             "ap2Name": "geometry",
             "ap2Primary": true,
             "ap1ID": 1747865648121,
-            "ap2ID": 1749506796803
+            "ap2ID": 1749507167315
         },
         {
             "ap1Name": "geometry",
@@ -2170,6 +2159,13 @@
             "ap2Primary": false,
             "ap1ID": 1749506796803,
             "ap2ID": 1749506814216
+        },
+        {
+            "ap1Name": "geometry",
+            "ap2Name": "geometry",
+            "ap2Primary": true,
+            "ap1ID": 1749507167315,
+            "ap2ID": 1749506796803
         }
     ],
     "unitsKey": "MM",
