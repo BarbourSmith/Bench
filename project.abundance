@@ -1805,8 +1805,8 @@
         {
             "atomType": "CutLayout",
             "name": "Cut Layout",
-            "x": 0.6621983914209115,
-            "y": 0.8100558659217877,
+            "x": 0.6818588025022341,
+            "y": 0.8212290502793296,
             "uniqueID": 1747729393885,
             "ioValues": [
                 {
@@ -1823,26 +1823,26 @@
                 },
                 {
                     "name": "Part Padding",
-                    "ioValue": 6
+                    "ioValue": 15
                 }
             ],
             "description": "Extracts all parts tagged for cutting and lays them out on a sheet to cut.",
             "placements": [
                 [
                     {
-                        "id": 0,
-                        "rotate": 60,
-                        "translate": {
-                            "x": 318.8337230195584,
-                            "y": 334.80088866368385
-                        }
-                    },
-                    {
                         "id": 1,
                         "rotate": 120,
                         "translate": {
-                            "x": 900.7882408882869,
-                            "y": 877.9991113363159
+                            "x": 323.6628177819815,
+                            "y": 562.0354164107496
+                        }
+                    },
+                    {
+                        "id": 0,
+                        "rotate": 120,
+                        "translate": {
+                            "x": 436.0370207275947,
+                            "y": 594.9699413503957
                         }
                     }
                 ]
@@ -1879,7 +1879,7 @@
         {
             "atomType": "Extrude",
             "name": "Extrude",
-            "x": 0.7649687220732797,
+            "x": 0.7712243074173368,
             "y": 0.18156424581005587,
             "uniqueID": 1749506796803,
             "ioValues": [
@@ -1889,7 +1889,7 @@
                 },
                 {
                     "name": "height",
-                    "ioValue": 15
+                    "ioValue": 25
                 }
             ],
             "description": "Extrudes a 2D shape. Input can be negitive. "
