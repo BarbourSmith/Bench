@@ -1835,8 +1835,8 @@
         {
             "atomType": "CutLayout",
             "name": "Cut Layout",
-            "x": 0.6746031746031745,
-            "y": 0.7988826815642459,
+            "x": 0.6621983914209115,
+            "y": 0.8100558659217877,
             "uniqueID": 1747729393885,
             "ioValues": [
                 {
@@ -1858,22 +1858,24 @@
             ],
             "description": "Extracts all parts tagged for cutting and lays them out on a sheet to cut.",
             "placements": [
-                {
-                    "translate": {
-                        "x": 218.10000610351562,
-                        "y": -383.50714111328125
+                [
+                    {
+                        "id": 0,
+                        "rotate": 60,
+                        "translate": {
+                            "x": 318.8337230195584,
+                            "y": 334.80088866368385
+                        }
                     },
-                    "id": 3,
-                    "rotate": 90
-                },
-                {
-                    "translate": {
-                        "x": 285.2855530089844,
-                        "y": 1516.8511962710938
-                    },
-                    "id": 2,
-                    "rotate": 90
-                }
+                    {
+                        "id": 1,
+                        "rotate": 120,
+                        "translate": {
+                            "x": 900.7882408882869,
+                            "y": 877.9991113363159
+                        }
+                    }
+                ]
             ]
         },
         {
@@ -1889,6 +1891,20 @@
                 }
             ],
             "description": "Creates a new circle."
+        },
+        {
+            "atomType": "Gcode",
+            "name": "Gcode",
+            "x": 0.8427167113494192,
+            "y": 0.835195530726257,
+            "uniqueID": 1749505924458,
+            "ioValues": [
+                {
+                    "name": "geometry",
+                    "ioValue": 1747729393885
+                }
+            ],
+            "description": "Generates Maslow gcode from the input geometry."
         }
     ],
     "allConnectors": [
@@ -2101,6 +2117,13 @@
             "ap2Primary": false,
             "ap1ID": 1747729393885,
             "ap2ID": 1747726284552
+        },
+        {
+            "ap1Name": "geometry",
+            "ap2Name": "geometry",
+            "ap2Primary": false,
+            "ap1ID": 1747729393885,
+            "ap2ID": 1749505924458
         }
     ],
     "unitsKey": "MM",
