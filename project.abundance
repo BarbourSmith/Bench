@@ -1870,11 +1870,28 @@
             "uniqueID": 1749505924458,
             "ioValues": [
                 {
-                    "name": "geometry",
-                    "ioValue": 1747729393885
+                    "name": "Tool Size",
+                    "ioValue": 6.35
+                },
+                {
+                    "name": "Passes",
+                    "ioValue": 6
+                },
+                {
+                    "name": "Speed",
+                    "ioValue": 500
+                },
+                {
+                    "name": "Cut Through",
+                    "ioValue": 1
+                },
+                {
+                    "name": "Part Name",
+                    "ioValue": "Bench"
                 }
             ],
-            "description": "Generates Maslow gcode from the input geometry."
+            "description": "Generates Maslow gcode from the input geometry.",
+            "partName": "Bench"
         },
         {
             "atomType": "Extrude",
@@ -1902,11 +1919,28 @@
             "uniqueID": 1749506814216,
             "ioValues": [
                 {
-                    "name": "geometry",
-                    "ioValue": 1749506796803
+                    "name": "Tool Size",
+                    "ioValue": 6.35
+                },
+                {
+                    "name": "Passes",
+                    "ioValue": 6
+                },
+                {
+                    "name": "Speed",
+                    "ioValue": 500
+                },
+                {
+                    "name": "Cut Through",
+                    "ioValue": 1
+                },
+                {
+                    "name": "Part Name",
+                    "ioValue": "Bench"
                 }
             ],
-            "description": "Generates Maslow gcode from the input geometry."
+            "description": "Generates Maslow gcode from the input geometry.",
+            "partName": "Bench"
         },
         {
             "atomType": "Move",
@@ -2142,23 +2176,9 @@
         {
             "ap1Name": "geometry",
             "ap2Name": "geometry",
-            "ap2Primary": false,
-            "ap1ID": 1747729393885,
-            "ap2ID": 1749505924458
-        },
-        {
-            "ap1Name": "geometry",
-            "ap2Name": "geometry",
             "ap2Primary": true,
             "ap1ID": 1747865648121,
             "ap2ID": 1749507167315
-        },
-        {
-            "ap1Name": "geometry",
-            "ap2Name": "geometry",
-            "ap2Primary": false,
-            "ap1ID": 1749506796803,
-            "ap2ID": 1749506814216
         },
         {
             "ap1Name": "geometry",
