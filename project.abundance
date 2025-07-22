@@ -1803,52 +1803,6 @@
             "currentEquation": "(x+(y/2))/0.875"
         },
         {
-            "atomType": "CutLayout",
-            "name": "Cut Layout",
-            "x": 0.6818588025022341,
-            "y": 0.8212290502793296,
-            "uniqueID": 1747729393885,
-            "ioValues": [
-                {
-                    "name": "geometry",
-                    "ioValue": 1747726397226
-                },
-                {
-                    "name": "Sheet Width",
-                    "ioValue": 2438
-                },
-                {
-                    "name": "Sheet Height",
-                    "ioValue": 1219
-                },
-                {
-                    "name": "Part Padding",
-                    "ioValue": 15
-                }
-            ],
-            "description": "Extracts all parts tagged for cutting and lays them out on a sheet to cut.",
-            "placements": [
-                [
-                    {
-                        "id": 1,
-                        "rotate": 120,
-                        "translate": {
-                            "x": 333.66,
-                            "y": 562.0354164107496
-                        }
-                    },
-                    {
-                        "id": 0,
-                        "rotate": 120,
-                        "translate": {
-                            "x": -183.81854956122936,
-                            "y": 1669.6415696358574
-                        }
-                    }
-                ]
-            ]
-        },
-        {
             "atomType": "Circle",
             "name": "Circle",
             "x": 0.5111706881143878,
@@ -1967,6 +1921,52 @@
                 }
             ],
             "description": "Moves a shape laterally in X, Y, Z."
+        },
+        {
+            "atomType": "CutLayout",
+            "name": "Cut Layout",
+            "x": 0.6865079365079365,
+            "y": 0.8194444444444444,
+            "uniqueID": "75c433ff-a68c-4be4-921e-01ee2caa553a",
+            "ioValues": [
+                {
+                    "name": "geometry",
+                    "ioValue": 1747726397226
+                },
+                {
+                    "name": "Sheet Width",
+                    "ioValue": 1219
+                },
+                {
+                    "name": "Sheet Height",
+                    "ioValue": 2438
+                },
+                {
+                    "name": "Part Padding",
+                    "ioValue": 6
+                }
+            ],
+            "description": "Extracts all parts tagged for cutting and lays them out on a sheet to cut.",
+            "placements": [
+                [
+                    {
+                        "id": 0,
+                        "rotate": 90,
+                        "translate": {
+                            "x": 218.20000000000005,
+                            "y": 1502.893245044783
+                        }
+                    },
+                    {
+                        "id": 1,
+                        "rotate": 90,
+                        "translate": {
+                            "x": 218.2000000004058,
+                            "y": 145.62104064478308
+                        }
+                    }
+                ]
+            ]
         }
     ],
     "allConnectors": [
@@ -2143,7 +2143,7 @@
             "ap2Name": "geometry",
             "ap2Primary": false,
             "ap1ID": 1747726397226,
-            "ap2ID": 1747729393885
+            "ap2ID": "75c433ff-a68c-4be4-921e-01ee2caa553a"
         },
         {
             "ap1Name": "number or geometry",
